@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Sign-Up Page</title>
+
+
+</head>
+<body >
+    <div class="container" id="main">
+        <form action="/signup" method="POST">
+            <h4>Sign up Page</h4>
+
+            Enter User Name:
+            <input name="name" type="text" class="form-control" value="" placeholder="abc" required><br>
+            Enter mail-id:
+            <input name="mail" type="email" class="form-control" value="" placeholder="example@gmail.com" required><br>
+            Set your Password :
+            <input name="pass" type="text"  class="form-control" value="" placeholder="password" required><br>
+            Enter your Mobile Number:
+            <input name="ph" type="tel" class="form-control" value="" required ><br>
+
+            <input type="submit" class="btn btn-primary" value="Sign up"><br><br>
+            <a href="/login">If you are not new member ! Login Here...</a>
+        </form>
+    </div>
+</body>
+</html>
