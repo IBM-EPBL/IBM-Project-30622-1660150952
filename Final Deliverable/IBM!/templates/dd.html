@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Tabs</title>
+</head>
+<body>
+  <div class="mytabs">
+    <input type="radio" id="tabfree" name="mytabs" checked="checked">
+    <label for="tabfree">DO's</label>
+    <div class="tab">
+      <h2>DO's</h2>
+      <p>*Get a full night’s sleep.
+<br>*Have adequate food, including iron-rich foods as they help to maintain the hemoglobin level.
+<br>*Make sure you’re drinking enough water before donating blood.
+<br>*Make sure you haven’t had a cold or flu in at least 72 hours.
+<br>*Don’t smoke for at least two hours prior to donating blood.
+<br>*Don’t consume alcohol a day before blood donation.
+<br>*Review the most recent qualifying conditions for donors.
+<br>*Carry your donor identity card or any other form of identification.<br>*Eat well-balanced meals for the next 24 hours to replenish your body. <br>*Wait at least five minutes after the process is completed before getting up.<br>
+Ensure to eat after blood donation. *Let the stomach be not empty.<br>
+*Increase fluid intake for the next 24 to 48 hours as it might take around 24 hours for the body to get the fluids retrieved post blood donation.<br>
+</p>
+</div>
+
+    <input type="radio" id="tabsilver" name="mytabs">
+    <label for="tabsilver">DON'Ts</label>
+    <div class="tab">
+      <h2>DON'Ts</h2>
+      <p>*Avoid consuming fizzy beverages or aerated drinks. <br>*Do not stand for long periods of time.<br>*For roughly five hours, avoid strong lifting or pulling with the donated arm.<br>
+*Avoid smoking for four hours, and alcohol for 24 hours.<br>
+*Ensure to share your medical history to safeguard the patient who will receive the blood.</p>
+</div>
+    
+
+  </div>
+</body>
+</html>
+
+<style>
+  body {
+    background: url(https://media.istockphoto.com/id/1256555401/vector/blood-donation-concept.jpg?s=612x612&w=0&k=20&c=OKESllI31Ny0H4CTABQgayI230R2o4tvCEE8RkSULpI=);
+    font-family: 'Roboto', sans-serif;
+}
+.mytabs {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 25px;
+}
+.mytabs input[type="radio"] {
+    display: none;
+}
+.mytabs label {
+    padding: 25px;
+    background: #e2e2e2;
+    font-weight: bold;
+}
+
+.mytabs .tab {
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    order: 1;
+    display: none;
+}
+.mytabs .tab h2 {
+    font-size: 3em;
+}
+
+.mytabs input[type='radio']:checked + label + .tab {
+    display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+    background: #fff;
+}
+</style>

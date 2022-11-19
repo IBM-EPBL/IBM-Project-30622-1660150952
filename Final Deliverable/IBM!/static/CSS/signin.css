@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.btn{
+    border-radius: 40px;
+    border: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    padding: 2rem 3rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    cursor: pointer;
+} 
+.btn--primary{
+    background: transparent;
+    color: rgb(0, 15, 0);
+    
+}
+.btn--primary:hover{
+    background: transparent ;
+}
+.btn--secondary{
+    background: transparent;
+    color: rgb(0, 0, 1);
+}
+.btn--secondary:hover{
+    background: transparent;
+    
+}
+.btn1--block:hover{
+    color: #fafffa;
+}
+.btn2--block:hover{
+    color: #fafffa;
+}
+.btn1--block{
+    width: 50%;
+    display: inline-block;
+    position: fixed;
+    left: 5%;
+    top: 37%;
+}
+.btn2--block{
+    width: 50%;
+    display: inline-block;
+    position: fixed;
+    left: 50%;
+    top: 37%;
+}
+#container{
+    text-align: center;
+}
+@media screen and (min-width: 1024px) {
+    .btn {
+        font-size: 1.8rem;
+    }
+}

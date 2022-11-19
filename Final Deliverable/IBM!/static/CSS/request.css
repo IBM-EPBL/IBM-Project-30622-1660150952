@@ -1,0 +1,56 @@
+*{
+    margin: 110;
+    padding: 110;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    }
+    
+    body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1)),url(https://static.vecteezy.com/system/resources/previews/007/849/061/original/world-blood-donor-background-free-vector.jpg);
+        background-position: absolute;
+        background-size: cover;
+        position: absolute;
+    }
+    
+    table{
+    margin-top: 50px;
+    text-align: left;
+    width: 40px;
+    border-spacing: 40px;
+}
+
+
+    .btn{
+        width: 5%;
+        height: 20px;
+        font-size: 15px;
+        margin: 1rem 0;
+        background-color: red;
+        border-radius: 30px;
+        color: white;
+        cursor: pointer;
+        display: inline-block;
+        position: fixed;
+        transition: .5s
+    } 
+    
+    
+    .btn .btn--block:hover{
+        background: white;
+    transition: 0.2s;
+    }
+    
+    table h1{
+    margin-bottom: 50px;
+    color: white;
+    }
+    
+    ::placeholder{
+    color: white;
+    }
