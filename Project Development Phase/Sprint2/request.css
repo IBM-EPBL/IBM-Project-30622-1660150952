@@ -1,0 +1,62 @@
+*{
+margin: 110;
+padding: 110;
+font-family: sans-serif;
+box-sizing: border-box;
+}
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+    height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1)),url(https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-blood-donation-art-free-simple-white-banner-image_180424.jpg);
+	background-position: absolute;
+	background-size: cover;
+	position: absolute;
+}
+
+form{
+margin-top: 50px;
+text-align: left;
+}
+
+input{
+display: block;
+width: 350px;
+height: 40px;
+margin: 20px;
+border: none;
+outline: none;
+font-size: 20px;
+border-bottom: 1px solid black;
+background-size: cover;
+background: transparent;
+color: black;
+}
+
+button{
+width: 350px;
+height: 40px;
+font-size: 20px;
+background-color: red;
+border-radius: 30px;
+color: black;
+margin-top: 20px;
+transition: .5s;
+}
+.buttons button:hover{
+	background: white;
+transition: 0.2s;
+}
+
+form h1{
+margin-bottom: 30px;
+color: black;
+}
+
+::placeholder{
+color: white;
+}

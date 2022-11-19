@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sign Up</title>
+<link rel="stylesheet" type="text/css" href="register.css">
+</head>
+<script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "3b214ae8-6eba-404e-85be-63772e4c2fef", // The ID of this integration.
+      region: "eu-gb", // The region your integration is hosted in.
+      serviceInstanceID: "3b4bf0dd-e329-4199-99b4-25f9ba1ee227", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+      document.head.appendChild(t);
+    });
+  </script>
+<body>
+ <form action="home.html" method="POST">
+<form>
+<h1>Sign Up</h1>
+<input type="text" name="" placeholder="Username">
+<input type="password" name="" placeholder="Password">
+<input type="password" name="" placeholder="Confirm Password">
+<input type="text" name="" placeholder="Gender">
+<input type="text" name="" placeholder="Age">
+<input type="email" name="" placeholder="Email">
+<input type="phone" name="" placeholder="Mobile no">
+
+<a href="home.html"><button>SIGN UP</button></a>
+</form>
+</form>
+</body>
+</html>

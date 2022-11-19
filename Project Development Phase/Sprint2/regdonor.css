@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+        background-image: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-aids-red-ribbon-banner-poster-background-image_182671.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%, 100%;
+        margin: 0;
+        padding: 0;
+
+}
+div.main{
+    width: 500px;
+    margin: 200px auto 0px auto;
+
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Courier New';
+    color: #fff;
+}
+div.register{
+text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+form#register{
+    margin: 40px;
+
+}
+label{
+    font-family: 'Courier New';
+    font-size: 18px;
+    font-style: normal;
+    color: #ddd;
+
+}
+input#name{
+    width: 200px;
+    font-family: 'Courier New';
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: transparent;
+    box-shadow: inset 1px 1px 5px #fff;
+    color: #fff ;
+}
+input#submit{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: 'Courier New';
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #fff;
+    box-shadow: inset 1px 1px 5px #fff;
+    margin-bottom: 20px;;
+}
+label,span,h2{
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
